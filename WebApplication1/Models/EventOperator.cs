@@ -241,13 +241,13 @@ namespace WebApplication1.Models
                 else if (s.Contains("かんじょう"))
                 {
                     int current = increment_sakana("かんじょう");
-                    string messageText = ConvertMessageText("はいまいど～！スライドのURLだよ \n\nhttps://docs.google.com/presentation/d/17LnDIV9xhyn3Iag9BL6GzWi8H8kwYMphDhX7YijHtTI/", current);
+                    string messageText = ConvertMessageText("はいまいど～！スライドのURLだよ \n\nhttps://docs.google.com/presentation/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/", current);
                     this.replyTextMessage(messageText);
                 }
                 else if (s.Contains("おかんじょう"))
                 {
                     int current = increment_sakana("おかんじょう");
-                    string messageText = ConvertMessageText("はいまいど～！スライドのURLだよ \n\nhttps://docs.google.com/presentation/d/17LnDIV9xhyn3Iag9BL6GzWi8H8kwYMphDhX7YijHtTI/", current);
+                    string messageText = ConvertMessageText("はいまいど～！スライドのURLだよ \n\nhttps://docs.google.com/presentation/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/", current);
                     this.replyTextMessage(messageText);
                 }
                 else if (s.Contains("きんめだい"))
