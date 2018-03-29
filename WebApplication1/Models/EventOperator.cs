@@ -165,7 +165,7 @@ namespace WebApplication1.Models
                     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-                text = text + " #test #おすしのはちべえ";
+                text = text + " #test";
                 tokens.Statuses.Update(new { status = text });
             }
             catch
